@@ -1,0 +1,17 @@
+/*******************************************************************************
+ * Copyright (C) 2018-2020 Intel Corporation
+ *
+ * SPDX-License-Identifier: MIT
+ ******************************************************************************/
+
+#ifndef CONFIG_H
+#define CONFIG_H
+
+#cmakedefine SUPPORT_DMA_BUFFER
+#cmakedefine HAVE_VAAPI
+#cmakedefine USE_VPUSMM
+#cmakedefine ENABLE_ITT
+#cmakedefine ENABLE_VAS_TRACKER
+#cmakedefine ENABLE_TRACKER_TYPE_IOU
+
+#endif
